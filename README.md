@@ -4,8 +4,8 @@
 ```go
 protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative helloworld.proto
 ```
-3) start the server, form helloworld folder: go run server/main.go
-4) start the client, form helloworld folder: go run client/main.go
+3) start the server, from helloworld folder: go run server/main.go
+4) start the client, from helloworld folder: go run client/main.go
 
 # FULL DOCUMENTATION
 https://grpc.io/docs/languages/go/quickstart/#prerequisites
